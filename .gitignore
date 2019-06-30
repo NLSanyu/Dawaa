@@ -7,5 +7,5 @@
 /build
 /captures
 .externalNativeBuild
-google-services.json
-proguard-rules.pro
+app/google-services.json
+app/proguard-rules.pro
