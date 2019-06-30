@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Dawaa</string>
+
+
+    <!--Login and SignUp Activities-->
+    <string name="Name">Nom</string>
+    <string name="Surname">Prenom</string>
+    <string name="Password">Mot de passe</string>
+    <string name="Email">Adresse email</string>
+    <string name="Confirm_password">Confirmer mot de passe</string>
+    <string name="Login">Entrer</string>
+    <string name="Sign_up_here">Don\'t have an account? Sign up here.</string>
+    <string name="Language">Langue</string>
+    <string name="Registration_failed">Echec</string>
+    <string name="Registration_successful">Enregistré</string>
+
+    <string name="Empty_name_pwd">Email ou mot de passe vide</string>
+    <string name="Pwd_too_long">Longeur du mot de passe doit etre moins de 6</string>
+
+    <string name="Create_account">Créer une compte</string>
+    <string name="Forgot_password">Mot de passe oublié?</string>
+
+    <!-- NavigationDrawer -->
+    <string name="Profile">Profil</string>
+    <string name="Items">Mes objets</string>
+    <string name="Urgent_Contacts">Contacts d\'urgence</string>
+    <string name="nav_drawer_open">Ouvrir menu</string>
+    <string name="nav_drawer_close">Fermer menu</string>
+
+    <!--HomeActivity -->
+    <string name="User_Name">Nom</string>
+    <string name="Medicine">Medicaments</string>
+    <string name="Doctors">Medecins</string>
+    <string name="Pharmacists">Pharmaciens</string>
+    <string name="Measurements">Mésures</string>
+    <string name="Calender">Calendrier</string>0
+    <string name="MedicalInfo">Aide \n médical</string>
+
+    <!--ProfileActivity -->
+    <string name="Date_of_Birth">Date de naissance</string>
+    <string name="Gender">Sexe</string>
+    <string name="Age">Age</string>
+    <string name="Blood_Group">Groupe sanguin</string>
+    <string name="Urgent_contact1">Numero d\'urgence 1</string>
+    <string name="Urgent_contact2">Numero d\'urgence 2</string>
+
+
+    <!-- menu1 -->
+    <string name="testmenu">Options</string>
+    <string name="Add">Ajouter</string>
+    <string name="Settings">Modifier profil</string>
+    <string name="Show_profile">Voir infos profil</string>
+    <string name="Log_out">Deconnexion</string>
+
+
+    <!--Alarm2Activity -->
+    <string name="Reminder_details">Détails</string>
+    <string name="Alarm_activated">Rappel activé</string>
+    <string name="Alarm_cancelled">Rappel désactivé</string>
+
+    <!--AddMedicinesActivity -->
+    <string name="med_added">Medicament ajouté</string>
+    <string name="med_name">Nom de medicament</string>
+    <string name="med_freq">Frequence par jour</string>
+    <string name="med_disease">Traitement pour: ...</string>
+    <string name="save_to_db">Enregistrer</string>
+    <string name="enter_a_name">Ajouter au moins un nom</string>
+
+
+    <!--AddDocActivity  and AddPharmActivity -->
+    <string name="pharm_added">Pharmacien ajouté</string>
+    <string name="doc_added">Medecin ajouté</string>
+    <string name="doc_name">Nom de medecin</string>
+    <string name="pharm_name">Nom de pharmacien</string>
+    <string name="doc_spec">Spécialité</string>
+    <string name="doc_email">Email</string>
+    <string name="doc_tel_no">Numéro de telephone</string>
+    <string name="doc_address">Adresse</string>
+    <string name="add_rdv">Enregistrer rendez-vous</string>
+    <string name="add_rdv_doc">Ajoutez un rendez-vous ici</string>
+    <string name="add_rdv_date_time">Date et heure</string>
+    <string name="rdv_desc">Description</string>
+    <string name="rdv_date">Date</string>
+    <string name="rdv_time">Heure</string>
+
+
+    <!--DocListActivity -->
+    <string name="open_add_doc_activity">Ajouter un medecin</string>
+
+    <!--PharmListActivity -->
+    <string name="open_add_pharm_activity">Ajouter un pharmacien</string>
+
+
+    <!--MedInfoActivity -->
+    <string name="info_text">Un malade est une personne souffrant d\'une maladie, qu\'elle soit
+        déterminée ou non. La plupart du temps ce terme est utilisé pour désigner un être humain.
+        Lorsqu\'il est pris en charge par un médecin ou qu\'il reçoit une attention médicale, on parle alors de patient.
+
+        La santé et la maladie sont parties intégrantes de la vie, du processus biologique
+        et des interactions avec le milieu social et environnemental. Généralement,
+        la maladie se définit comme une entité opposée à la santé, dont l'effet négatif est
+        dû à une altération ou à une désharmonisation d'un système à un niveau quelconque
+        (moléculaire, corporel, mental, émotionnel…) de l'état physiologique ou morphologique
+        considérés comme normal, équilibré ou harmonieux. On peut parler de mise en défaut de l'homéostasie.</string>
+    <string name="info_text_tuberculosis">Un malade est une personne souffrant d\'une maladie, qu\'elle soit
+        déterminée ou non. La plupart du temps ce terme est utilisé pour désigner un être humain.</string>
+    <string name="info_text_diabetes">Un malade est une personne souffrant d\'une maladie, qu\'elle soit
+        déterminée ou non. La plupart du temps ce terme est utilisé pour désigner un être humain.</string>
+    <string name="info_text_blood_pressure">Un malade est une personne souffrant d\'une maladie, qu\'elle soit
+        déterminée ou non. La plupart du temps ce terme est utilisé pour désigner un être humain.</string>
+    <string name="info_text_asthma">Un malade est une personne souffrant d\'une maladie, qu\'elle soit
+        déterminée ou non. La plupart du temps ce terme est utilisé pour désigner un être humain.</string>
+
+
+    <!--MedicinesListActivity -->
+    <string name="open_add_med_activity">Ajouter un medicament</string>
+    <string name="add_alarm">Ajouter un rappel</string>
+
+    <!--MedicineActivity -->
+    <string name="times_per_day">fois par jour</string>
+    <string name="each_med_name">Medicament</string>
+    <string name="each_med_freq">Frequence par jour</string>
+    <string name="each_med_times">Heures de prise</string>
+    <string name="each_med_filler_time">00:00     ...</string>
+    <string name="each_med_dosage">Posologie</string>
+    <string name="each_med_details">Details</string>
+    <string name="each_med_dates">Dates de debut et fin de prise</string>
+    <string name="each_med_start_date">Date de debut</string>
+    <string name="each_med_finish_date">Date de fin</string>
+    <string name="set_alarm2">Ajouter rappel pour ce medicament</string>
+    <string name="cancel_alarm2">Supprimer rappel pour ce medicament</string>
+
+    <!--MeasurementsActivity -->
+    <string name="Enter_data">Entrer les parametres et les effets secondaires des medicaments (au cas ou il y en a)</string>
+    <string name="Weight">Poids</string>
+    <string name="Temperature">Température</string>
+    <string name="Blood_pressure">Tension</string>
+    <string name="Glucose">Glycémie</string>
+    <string name="Side_effects">Effets sécondaires</string>
+
+
+    <!-- Toolbar titles -->
+    <string name="home_toolbar_title">Profil</string>
+
+    <!--Calendar2Activity -->
+    <string name="add_rdv_directly_here">Ajoutez un rendez-vous directement sur votre calendrier en cliquant sur une date</string>
+    <string name="rdv_person">Rendez-vous avec...</string>
+    <string name="rdv_description">Description</string>
+
+    <!-- Reminders/notifications for taking meds -->
+    <string name="confirm_med_taken">J\'ai pris</string>
+    <string name="med_notif_title">Medicament</string>
+    <string name="med_notif_msg">Prendre votre medicament</string>
+
+    <!-- Reminders for rendez-vous -->
+    <string name="rdv_reminder">Rendez-vous dans 5 jours</string>
+    <string name="rdv_notif_title">Rendez-vous dans 5 jours</string>
+    <string name="rdv_notif_msg">Avec...</string>
+    <string name="check_calendar">Ouvrir votre calendrier pour plus de details</string>
+
+    <!-- Dummy reminder -->
+    <string name="dummy_notif_title">Rappel</string>
+    <string name="dummy_notif_msg">Ouvrir votre calendrier pour plus de details</string>
+
+</resources>

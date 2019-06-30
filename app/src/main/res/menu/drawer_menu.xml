@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile_image2"
+            android:title="@string/Profile" />
+
+        <item
+            android:id="@+id/contacts"
+            android:icon="@drawable/profile_image2"
+            android:title="@string/Urgent_Contacts" />
+
+    </group>
+
+    <item android:title="@string/Items">
+
+        <menu>
+
+            <item
+                android:id="@+id/medicine"
+                android:icon="@drawable/ic_nav_dummy"
+                android:title="@string/Medicine" />
+
+            <item
+                android:id="@+id/doctors"
+                android:icon="@drawable/ic_nav_dummy"
+                android:title="@string/Doctors" />
+
+            <item
+                android:id="@+id/pharmacists"
+                android:icon="@drawable/ic_nav_dummy"
+                android:title="@string/Pharmacists" />
+
+            <item
+                android:id="@+id/measurements"
+                android:icon="@drawable/ic_nav_dummy"
+                android:title="@string/Measurements" />
+
+            <item
+                android:id="@+id/calendar"
+                android:icon="@drawable/ic_nav_dummy"
+                android:title="@string/Calender" />
+
+            <item
+                android:id="@+id/medical_info"
+                android:icon="@drawable/ic_nav_dummy"
+                android:title="@string/MedicalInfo" />
+
+        </menu>
+
+    </item>
+
+
+</menu>

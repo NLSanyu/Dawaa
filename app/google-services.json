@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1029670363632",
+    "firebase_url": "https://dawaa-a0844.firebaseio.com",
+    "project_id": "dawaa-a0844",
+    "storage_bucket": "dawaa-a0844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029670363632:android:d98919d35319c715",
+        "android_client_info": {
+          "package_name": "com.example.android.dawaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029670363632-7eehrp4hkcvisvm1r0t6q3uos1lafsk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.dawaa",
+            "certificate_hash": "5234ee3ce7e08c497bf73f8ae9144a798697cf94"
+          }
+        },
+        {
+          "client_id": "1029670363632-sr7loh9os7hnlcshi2igktiok35u70v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVOzHeAfOMOENRkYUIfPxuVP1CdLwy0hc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029670363632-sr7loh9os7hnlcshi2igktiok35u70v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

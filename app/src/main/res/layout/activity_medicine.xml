@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dawaa.MedicineActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+
+    <ImageView
+        android:id="@+id/imageView_meds"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/meds" />
+
+    <TextView
+        android:id="@+id/tv_each_med_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="@string/each_med_name" />
+
+    <TextView
+        android:id="@+id/tv_each_med_dosage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="@string/each_med_dosage" />
+
+    <TextView
+        android:id="@+id/tv_each_med_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="@string/each_med_details" />
+
+    <TextView
+        android:id="@+id/tv_each_med_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="@string/each_med_times" />
+
+    <TextView
+        android:id="@+id/tv_each_med_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="@string/each_med_start_date" />
+
+    <TextView
+        android:id="@+id/tv_each_med_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:text="@string/each_med_finish_date" />
+
+
+
+
+
+
+
+</LinearLayout>

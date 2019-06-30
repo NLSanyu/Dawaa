@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dawaa.AddPharmActivity">
+
+
+    <EditText
+        android:id="@+id/et_New_Pharm"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/pharm_name" />
+
+    <EditText
+        android:id="@+id/et_New_Pharm_Email"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/doc_email"
+        />
+
+    <EditText
+        android:id="@+id/et_New_Pharm_Tel"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/doc_tel_no"/>
+
+    <EditText
+        android:id="@+id/et_New_Pharm_Address"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:hint="@string/doc_address" />
+
+
+    <Button
+        android:id="@+id/btn_add_pharm"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="3dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/save_to_db"
+
+        />
+
+
+</LinearLayout>
