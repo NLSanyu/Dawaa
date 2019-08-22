@@ -1,13 +1,17 @@
 # Dawaa
 
-Dawaa is an Android app that eases management of medication for people with chronic illnesss
+Dawaa is an Android app that eases management of medication for people with chronic illnesses
+
 
 ## User roles
  - Patient
  - Doctor
  - Pharmacist
 
+
 ## Features
+
+
   ### Patients
    - Registering your medicine
    - Reminders for taking your medicine
